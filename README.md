@@ -18,7 +18,8 @@ To exit: stop
 To update: update
 ```
 ## Web Scrapping
-Web scrapping using [ParseHub](https://www.parsehub.com/) API
+Web scrapping using [ParseHub](https://www.parsehub.com/) API <br>
+Source: [worldometer](https://www.worldometers.info/coronavirus/)
 
 ## Install dependencies
 ```
