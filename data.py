@@ -3,6 +3,7 @@ import json
 import threading
 import time
 
+
 class Data:
     def __init__(self, api_key, project_token):
         self.api_key = api_key
@@ -56,7 +57,7 @@ class Data:
                     self.data = new_data
                     print('Data updated')
                     break
-                time.sleep(5)
+                time.sleep(0.5)
 
         t = threading.Thread(target=poll)
         t.start()

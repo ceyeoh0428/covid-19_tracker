@@ -89,3 +89,9 @@ main()
 # 398,483 death in the world
 # 8,266 cases in Malaysia
 # 116 death in Malaysia
+
+# 6 June 2020, 9.54PM
+# 6,885,114 cases in the world
+
+# 6 June 2020, 9.57PM
+# 6,885,120 cases in the world
