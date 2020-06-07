@@ -57,7 +57,7 @@ class Data:
                     self.data = new_data
                     print('Data updated')
                     break
-                time.sleep(0.5)
+                time.sleep(5)
 
         t = threading.Thread(target=poll)
         t.start()
