@@ -55,3 +55,9 @@ pip install {YOUR_PYAUDIO_FILENAME}
 ## References
 [Python Project - Coronavirus Web Scraper & Voice Assistant Tutorial](https://www.youtube.com/watch?v=gJY8D468Jv0)
 
+## Troubleshoot
+
+1. The time for updating the database is **too slow**.
+2. The function is **too simple**.
+3. The `pyttsx3 speak()` **didn't work**.
+
