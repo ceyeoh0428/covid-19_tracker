@@ -1,12 +1,14 @@
+import os
+
 import pyttsx3
 import speech_recognition as sr
 
 import re
 from data import Data
 
-API_KEY = 'tvgybGbTX8ZK'
-PROJECT_TOKEN = 'taXuH9Wyd9tO'
-RUN_TOKEN = 't72OZhtW8Ypg'
+API_KEY = os.environ.get('COVID19_API_KEY')
+PROJECT_TOKEN = os.environ.get('COVID19_PROJECT_TOKEN')
+RUN_TOKEN = os.environ.get('COVID19_RUN_TOKEN')
 
 
 # pyttsx3 speak not working
@@ -100,4 +102,16 @@ main()
 # 6,982,883 cases in the world
 # 402,273 death in the world
 # 8,303 cases in Malaysia
+# 117 death in Malaysia
+
+# 9 June 2020, 12.22AM
+# 7,142,021 cases in the world
+# 407,309 death in the world
+# 8,329 cases in Malaysia
+# 117 death in Malaysia
+
+# 9 June 2020, 3.16AM
+# 7,154,873 cases in the world
+# 407,722 death in the world
+# 8,329 cases in Malaysia
 # 117 death in Malaysia
